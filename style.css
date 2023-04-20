@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ----main---- */
+
+body {
+    height: 92vh;
+    width: 88vw;
+}
+
+/* ----pacman IMG---- */
+
+#pacman-img {
+    width: 40px;
+    height: 40px;
+}
+
+#badman {
+    width: 40px;
+    height: 40px;
+}
+
+
+
+/* ----img rotate---- */
+
+.move-down-img {
+    transform: rotateZ(90deg);
+    transition: 0.06s ease;
+}
+
+.move-up-img {
+    transform: rotateZ(270deg);
+    transition: 0.06s ease;
+}
+
+.move-right-img {
+    transform: rotateY(180deg);
+    transition: 0.06s ease;
+}
+
+.move-left-img {
+    transform: rotateY(360deg);
+    transition: 0.06s ease;
+}
