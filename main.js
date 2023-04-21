@@ -85,7 +85,7 @@ document.addEventListener('keydown', function (e) {
 // Moving the badGuy
 for (let i = 0; i < Infinity; i++) {
     let info = badGuy.style.top;
-    badGuy.style.transition = '6s';
+    badGuy.style.transition = '7s';
     info = parseInt(info) + 10;
 
     if (info >= document.body.clientHeight) {
