@@ -1,9 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 /* ----main---- */
 
 body {
@@ -24,6 +18,46 @@ body {
     height: 40px;
 }
 
+
+/* START The Game */
+.all-keydowns {
+    margin-top: 250px;
+    width: 92vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.w-key {
+    padding-left: 29px;
+    font-weight: bold;
+    opacity: 80%;
+}
+
+.a-s-d-key {
+    line-height: 25px;
+    font-weight: bold;
+    opacity: 80%;
+}
+
+.press {
+    padding-left: 20px;
+    color: red;
+    font-weight: bold;
+    opacity: 50%;
+}
+
+
+/* game over */
+
+.game-over {
+    display: none;
+    font-size: 120px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: red;
+}
 
 
 /* ----img rotate---- */

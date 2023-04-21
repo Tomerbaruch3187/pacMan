@@ -82,10 +82,10 @@ document.addEventListener('keydown', function (e) {
 });
 
 
-// Moving the badGuy
+// Moving the badGuy to the start poing
 for (let i = 0; i < Infinity; i++) {
     let info = badGuy.style.top;
-    badGuy.style.transition = '7s';
+    badGuy.style.transition = '2s';
     info = parseInt(info) + 10;
 
     if (info >= document.body.clientHeight) {
@@ -94,4 +94,4 @@ for (let i = 0; i < Infinity; i++) {
 
     info = info + "px";
     badGuy.style.top = info;
-}
+};
