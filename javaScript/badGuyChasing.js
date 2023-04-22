@@ -22,5 +22,5 @@ document.addEventListener('keydown', function () {
         badGuy.style.left = img.style.left;
     }
 
-    setInterval(gameOver, 10);
+    setInterval(gameOver, 1);
 });
