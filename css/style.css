@@ -36,6 +36,9 @@ body {
 }
 
 
+
+
+
 .w-key {
     padding-left: 29px;
     font-weight: bold;
@@ -64,7 +67,7 @@ body {
     font-size: 50px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
-    padding: 20px 50px;
+    padding: 10px 50px;
     color: red;
     background: rgba(247, 247, 247, 0.14);
     border-radius: 16px;
@@ -87,6 +90,8 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+
 
 
 

@@ -1,4 +1,6 @@
 document.addEventListener('keydown', function () {
+    keysDivRemoving(); //w-a-s-d opacity -> 0
+
     for (let i = 0; i < Infinity; i++) {
         let infoTop = badGuy.style.top;
 
@@ -20,19 +22,5 @@ document.addEventListener('keydown', function () {
         badGuy.style.left = img.style.left;
     }
 
-    // check for collision
-    if (badGuy.offsetTop === img.offsetTop && badGuy.offsetLeft === img.offsetLeft) {
-
-        //Game Over text.
-        const gameOver = document.querySelector('.game-over');
-        gameOver.style.display = 'block';
-
-        // 'none' How To Play Keys
-        const allKeyDowns = document.querySelector('.all-keydowns');
-        allKeyDowns.style.display = 'none';
-
-        //Blur div to 'block'
-        const blurDiv = document.getElementById('blur-div');
-        blurDiv.style.display = 'block';
-    }
+    setInterval(gameOver, 10);
 });
