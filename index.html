@@ -5,36 +5,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script defer src="main.js"></script>
-    <script defer src="./badGuyChasing.js"></script>
-    <script defer src="./disableWASDkeys.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/newGameBtn.css">
+    <script defer src="./javaScript/main.js"></script>
+    <script defer src="./javaScript/badGuyChasing.js"></script>
+    <script defer src="./javaScript/gameReset.js"></script>
     <title>pacMan</title>
 </head>
 
 <body>
-    <img id="pacman-img" style="position: absolute; top: 30px; left: 30px;"
-        src="./kisspng-pac-man-computer-icons-clip-art-pac-man-5ad5b32f19ca81.3643051415239544791057.png"
-        alt="pacman img">
 
-    <img id="badman" src="./580b57fcd9996e24bc43c316.png" alt="pacman (the bad guy)"
-        style="position: absolute; top: 30px; right: 50px;">
+    <div id="blur-div"></div>
 
 
-    <div class="game-over">Game Over!</div>
+    <div class="center">
+        <img id="pacman-img" style="position: absolute; top: 30px; left: 30px;"
+            src="./kisspng-pac-man-computer-icons-clip-art-pac-man-5ad5b32f19ca81.3643051415239544791057.png"
+            alt="pacman img">
+
+        <img id="badman" src="./580b57fcd9996e24bc43c316.png" alt="pacman (the bad guy)"
+            style="position: absolute; top: 30px; right: 50px;">
 
 
-    <div class="all-keydowns">
-        <div>
-            <div class="press">PRESS</div>
-            <br>
-            <span class="w-key">"W"</span>
-            <br>
-            <span class="a-s-d-key">"A" "S" "D"</span>
+        <div class="game-over">Game Over!
+            <div class="btn-reset">NEW GAME</div>
+        </div>
+
+        <!-- How to play the game -->
+        <div class="all-keydowns">
+            <div>
+                <div class="press">PRESS</div>
+                <br>
+                <span class="w-key">"W"</span>
+                <br>
+                <span class="a-s-d-key">"A" "S" "D"</span>
+            </div>
         </div>
     </div>
-
-
 </body>
 
 </html>
