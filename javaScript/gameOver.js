@@ -6,7 +6,7 @@ const gameOver = function () {
         const gameOver = document.querySelector('.game-over');
         gameOver.style.display = 'block';
 
-        // 'none' How To Play Keys
+        //Display 'none' How To Play Keys
         const allKeyDowns = document.querySelector('.all-keydowns');
         allKeyDowns.style.display = 'none';
 
